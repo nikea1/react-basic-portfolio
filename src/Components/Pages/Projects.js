@@ -3,10 +3,10 @@ import stockImg from '../../Images/pexels-pixabay-270348.jpg'
 function ProjectLink({image,link,projectName}){
     return(
         <div>
-            <div href={link} className='anchor-container'>
+            <a href={link} className='anchor-container'>
                 <img src={image}  alt="project code" className='project-img'/>
                 <div className='project-title'>{projectName}</div>
-            </div>
+            </a>
         </div>
     )
 }
