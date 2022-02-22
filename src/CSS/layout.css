@@ -26,7 +26,8 @@ hr{
 .body{
     display: flex;
     justify-content: space-evenly;
-    width: 100%
+    width: 100%;
+    margin: 2.5em auto;
     
 }
 
@@ -51,6 +52,22 @@ hr{
 
     .content{
         width: 100%;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .body{
+    padding: 2.5em 15em;
+    }
+}
+
+@media screen and (min-width: 2000px) {
+    .body{
+        padding: 2.5em 30em;
+    }
+    
+    .content{
+        width: 70%;
     }
 }
 

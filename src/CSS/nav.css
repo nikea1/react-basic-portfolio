@@ -16,7 +16,7 @@
 
 .header-menu ul li a{
     padding: .6em 1em;
-    background: #2f2d31;
+    /* background: #2f2d31; */
     color:aliceblue;
     display:block;
 }
@@ -41,5 +41,6 @@
 
     .header h1{
         text-align: center;
+        padding: 1em;
     }
 }

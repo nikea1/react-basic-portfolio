@@ -4,7 +4,7 @@ import {Content} from './Content'
 export function Body(){
 
     const style = {
-      margin: '2.5em auto' 
+      // padding: '2.5em 15em' 
     }
   
       return(
