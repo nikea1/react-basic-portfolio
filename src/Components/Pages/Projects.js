@@ -18,11 +18,11 @@ export function Projects(){
             <h1 className='page-title'>Portfolio</h1>
             <hr />
             <div className='project-container'>
-                <ProjectLink link="/#" image={stockImg} projectName="Project 1" />
-                <ProjectLink link="/#" image={stockImg} projectName="Project 2" />
-                <ProjectLink link="/#" image={stockImg} projectName="Project 3" />
-                <ProjectLink link="/#" image={stockImg} projectName="Project 4" />
-                <ProjectLink link="/#" image={stockImg} projectName="Project 5" />
+                <ProjectLink link="#top" image={stockImg} projectName="Project 1" />
+                <ProjectLink link="#top" image={stockImg} projectName="Project 2" />
+                <ProjectLink link="#top" image={stockImg} projectName="Project 3" />
+                <ProjectLink link="#top" image={stockImg} projectName="Project 4" />
+                <ProjectLink link="#top" image={stockImg} projectName="Project 5" />
 
             </div>
         </section>
