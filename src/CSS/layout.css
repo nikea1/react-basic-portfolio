@@ -1,0 +1,62 @@
+/* Layout CSS */
+/* Global CSS */
+
+body{
+    background-image: url('../Images/asanoha-400px.png');
+}
+
+.page-title{
+    font-size: 1.625em;
+    color: indigo;
+}
+
+hr{
+    background: #dddddd;
+    height: 3px;
+    border: none;
+    margin: 35px 0;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.body{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
+    
+}
+
+.content{
+    /* background: #00ffff; */
+    width: 60%;
+    border: #dddddd;
+    border-style: solid;
+    border-width: 1px;
+    background: white;
+}
+
+
+
+@media screen and (max-width: 450px){
+    /* flex */
+
+    .body{
+        flex-flow: column wrap;
+        gap:1em;
+    }
+
+    .content{
+        width: 100%;
+    }
+}
+
+footer{
+    background: indigo;
+    color:aliceblue;
+    padding: 2em;
+    margin-top:auto;
+}

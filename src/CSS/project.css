@@ -1,0 +1,30 @@
+.project-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:1em;
+}
+
+.anchor-container{
+    position: relative;
+    
+}
+
+.project-img{
+    width: 100%;
+}
+
+.project-title{
+    background: indigo;
+    color: aliceblue;
+    padding: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 20px;
+}
+
+@media screen and (max-width: 450px) {
+    .project-container{
+        display: block;
+        
+    }
+}
